@@ -208,6 +208,22 @@ ul li {
    padding-right: 53.5px;
 }
 
+
+/* footer related styles */
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-nav{
+    display: flex;
+}
+
+.senses {
+    color: rgba(0, 0, 0, 0.5) ;
+}
+
+
 @media  screen and (max-width:600px) {
     
 .hero-section {
@@ -233,6 +249,14 @@ ul li {
 .image-class {
     max-width: 358px;
     max-height: 396px;
+}
+
+.container {
+    flex-direction: column;
+}
+
+.footer-nav {
+    flex-direction: column;
 }
 
 }
